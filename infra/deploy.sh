@@ -3,7 +3,7 @@
 echo "Deploying the Azure resources..."
 
 # Define resource group parameters
-RG_LOCATION="westus"
+RG_LOCATION="eastus"
 AI_PROJECT_FRIENDLY_NAME="Zava Agent Service Workshop"
 RESOURCE_PREFIX="zava-agent-wks"
 UNIQUE_SUFFIX=$(head /dev/urandom | tr -dc a-z0-9 | head -c 4)
